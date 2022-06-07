@@ -5,7 +5,8 @@ use teamproject1;
 DROP TABLE IF EXISTS player;
 
 CREATE TABLE player
-(	playerid	INT,
+(
+	playerid	INT,
 	name		VARCHAR(20),
 	team		VARCHAR(10),
 	playerposition	VARCHAR(10)
