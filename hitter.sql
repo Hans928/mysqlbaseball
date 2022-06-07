@@ -5,7 +5,7 @@ create table hitterdb
 	(playerid int, -- id
   	 name VARCHAR(10), -- 이름
   	 team char(3),	-- 소속팀
-  	 position char(2),	-- 포지션
+  	 playerposition char(2),	-- 포지션
   	 battingaverage float(4,3),	-- 타율
   	 homerun int,	-- 홈런
   	 safety int,	-- 안타
