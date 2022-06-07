@@ -113,3 +113,12 @@ select count(*) from pitcher;
 select round(avg(sal)) from hitterdb; 
 
 select round(avg(sal)) from pitcher; 
+
+
+-- 팀별 명수
+select team, count(*) from pitcher group by 1 order by 1;
+select playerposition, count(*) from pitcher group by 1 order by 1;
+select team, playerposition, count(*) from pitcher group by 1,2 order by 1,2;
+
+select team, count(*) from hitterdb group by 1 order by 1;
+select playerposition, count(*) from hitterdb group by 1 order by 1;
