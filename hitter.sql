@@ -12,6 +12,7 @@ create table hitterdb
   	 stolenbases int,	-- 도루
   	 war float(4,2),	-- war
   	 salary numeric(7,2)	-- 연봉
+	 , FOREIGN KEY(playerid) REFERENCES player(playerid)
   	 );
 
 select * from hitterdb;
