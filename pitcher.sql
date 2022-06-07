@@ -9,7 +9,7 @@ create table pitcher
 	hld INT, -- 홀드
 	war float(4,2), -- war
 	sal numeric(7,2), -- 연봉
-	PRIMARY KEY (playerid)
+	foreign key (playerid) REFERENCES player (playerid)
 )
 
 INSERT INTO pitcher values
