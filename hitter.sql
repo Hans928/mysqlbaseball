@@ -2,7 +2,7 @@ use hitter
 
 drop table if exists hitterdb;
 create table hitterdb
-	(userid int, -- id
+	(playerid int, -- id
   	 name VARCHAR(10), -- 이름
   	 team char(3),	-- 소속팀
   	 position char(2),	-- 포지션
