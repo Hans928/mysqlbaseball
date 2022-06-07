@@ -165,7 +165,7 @@ create table hitterdb
   	homerun			int,			-- 홈런
   	safety			int,			-- 안타
   	stolenbases		int,			-- 도루
-  	war				float(4,2),		-- war
+  	war				numeric(4,2),		-- war
   	salary			numeric(7,2),	-- 연봉
 	FOREIGN KEY(playerid) REFERENCES player(playerid)
 );
