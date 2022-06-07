@@ -102,8 +102,8 @@ create table pitcher
 	win INT, -- 승리
 	save INT, -- 세이브
 	hld INT, -- 홀드
-	war float(4,2), -- war
-	sal numeric(7,2), -- 연봉
+	war numeric(4,2), -- war
+	salary numeric(7,2), -- 연봉
 	FOREIGN KEY(playerid) REFERENCES player(playerid)
 );
 
@@ -150,6 +150,7 @@ INSERT INTO pitcher values
 
 commit;
 select * from pitcher;
+
 
 
 select * from pitcher;
