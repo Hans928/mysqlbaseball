@@ -5,10 +5,10 @@ use teamproject1;
 DROP TABLE IF EXISTS player;
 
 CREATE TABLE player
-(	playerid	INT,
-	name	VARCHAR(20),
-	team	VARCHAR(10),
-	position	VARCHAR(10)
+(	playerid		INT,
+	name			VARCHAR(20),
+	team			VARCHAR(10),
+	playerposition		VARCHAR(10)
 );
 
 INSERT INTO player VALUES
